@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyC3ccUO0N_3aOBv_dexBmg3IesjmPAH1CI';  // 🔁 Replace this with your actual key
+const API_KEY = '';  // 🔁 Replace this with your actual key
 const MODEL = 'models/gemini-1.5-flash'; // You can also try 'models/gemini-pro'
 
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
